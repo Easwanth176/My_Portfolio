@@ -254,7 +254,99 @@ button:hover
 .projects
 {
  display: flex;
- 
 
 
+}
+
+.certificates
+{
+  margin-top:70px;
+}
+
+
+
+.Certification{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0;
+  
+}
+
+
+.certificate-container{
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.certificate-container::-webkit-scrollbar{
+  display: none;
+}
+
+.certificate-card{
+  flex: 0 0 auto;
+  width: 455px;
+  height: 366px;
+  margin-right: 40px;
+}
+
+.certificate-image{
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.certificate-thumb{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.certificate-tag{
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff7d7d;
+  right: 10px;
+  top: 10px;
+  text-transform: capitalize;
+}
+
+
+
+
+.pre-btn, .nxt-btn{
+  border: none;
+  width: 3vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn{
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn{
+  right: 0;
+}
+
+.pre-btn img, .nxt-btn img{
+  opacity: 0.2;
+}
+
+.pre-btn:hover img, .nxt-btn:hover img{
+  opacity: 1;
 }
