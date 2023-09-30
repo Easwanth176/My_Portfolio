@@ -138,7 +138,7 @@ h1{
 }
 button:hover
 {
-  background-color: #b49708;
+  background-color: #c4c1b4;
 }
 .imgbox
 {
@@ -159,8 +159,8 @@ button:hover
 
 
 
-/* 
-@keyframes animate
+
+/* @keyframes animate
 {
   50%
   {
